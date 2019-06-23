@@ -1,5 +1,5 @@
 /*
-This is my answer for HackerRank SQL problem: Challenges
+This is my answer for HackerRank SQL problem: Challenges.
 */
 SELECT c.hacker_id, h.name, COUNT(c.challenge_id) AS challenges_created
 FROM hackers h JOIN challenges c ON h.hacker_id = c.hacker_id
